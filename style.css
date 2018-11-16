@@ -23,7 +23,7 @@ nav {
   align-content: flex-end;
 
 }
-nav ul li{
+ul li{
   display: inline-block;
   list-style: none;
   text-decoration: none;
@@ -33,7 +33,17 @@ nav ul li{
 
 .portion {
   width: 85%;
-  margin: 0 7rem;
+  margin: 0 auto;
   text-align: center;
   padding: 2rem 0;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer ul {
+  padding-inline-start: 0;
 }
