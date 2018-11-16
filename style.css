@@ -31,6 +31,15 @@ ul li{
   font-size: 120%;
 }
 
+.landing {
+  background: url(img/landing.jpg) no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+iframe {
+  margin: .5rem;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.23), 6px 6px 6px rgba(0,0,0,0.3);
+}
 .portion {
   width: 85%;
   margin: 0 auto;
