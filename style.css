@@ -40,6 +40,12 @@ ul li a {
   color: white;
 }
 
+hr {
+  width: 63.6%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .landing {
   background: url(img/landing.jpg) no-repeat 50% 50%;
   background-size: cover;
@@ -55,6 +61,11 @@ h2 {
 .ourStory {
   width: 75%;
   margin: 0 auto;
+  text-align: left;
+}
+
+.ourStory p, .ourStory h2 {
+  text-indent: 3rem;
 }
 iframe {
   margin: .5rem;
@@ -74,12 +85,19 @@ iframe {
   background-attachment: fixed;
   background-size: cover;
   height: auto;
-  width: 75.3%;
+  width: 63.6%;
+  border-radius: 5px;
 }
 
 #tour {
   width: 63.6%;
-  padding-top: rem;
+  background-image: url(img/forest.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #tourDates {
