@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Open+Sans|Permanent+Marker');
+
 html, body {
 width: 100%;
 height: 100%;
@@ -6,13 +8,16 @@ margin: 0;
 header {
   display:inline-flex;
   background-color: gray;
-  width: 97.5%;
-  padding: 1rem;
-  height: 4rem;
+  width: 97.6%;
+  padding: 0rem 1rem 1rem 1rem;
+  height: 3.5rem;
+  color: white;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 
 header h1 {
   width: 30%;
+  font-family: 'Permanent Marker', cursive;
 }
 
 nav {
@@ -25,16 +30,31 @@ nav {
 }
 ul li{
   display: inline-block;
-  list-style: none;
-  text-decoration: none;
   padding: 1rem;
   font-size: 120%;
 }
+ul li a {
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
 
 .landing {
-  background: url(img/landing.jpg) no-repeat;
-  height: 100vh;
-  width: 100vw;
+  background: url(img/landing.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  height: 90%;
+  width: 100%;
+  margin: auto;
+  top: 0;
+}
+h2 {
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.ourStory {
+  width: 75%;
+  margin: 0 auto;
 }
 iframe {
   margin: .5rem;
@@ -47,12 +67,42 @@ iframe {
   padding: 2rem 0;
 }
 
+#music {
+  margin-top: 4rem;
+  background-image: url(img/creek.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  width: 75.3%;
+}
+
+#tour {
+  width: 63.6%;
+  padding-top: rem;
+}
+
+#tourDates {
+  padding-bottom: 2rem;
+}
+
 footer {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+
 }
 
 footer ul {
   padding-inline-start: 0;
+}
+h3 a {
+  color: black;
+}
+
+footer ul li a {
+  font-size: 200%;
+  color: black;
 }
