@@ -134,3 +134,22 @@ footer ul li a {
 #footerTwo{
   background:grey;
 }
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+
+
+#videos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+#videos iframe {
+  height: 70%;
+  width: 70%;
+}
+
+}
