@@ -10,6 +10,28 @@
    </head>
 
 <body>
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <a href="#home" class="active" id="logo">Wolf Creek Boys</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="#news">Music</a>
+      <a href="#contact">Videos</a>
+      <a href="#about">About</a>
+      <a href = "#tour">Tour</a>
+      <a href="#" target="_blank"> <i class="fab fa-soundcloud"></i></a>
+      <a href="#" target="_blank"> <i class="fab fa-facebook"></i></a>
+      <a href="#" target="_blank"> <i class="fab fa-instagram"></i></a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  </div>
+<!--remove if new nav sufices
 <header>
   <h1>Wolf Creek Boys</h1>
   <nav>
@@ -31,9 +53,9 @@
   </div>
    </nav>
 </header>
+-->
 <div class = "landing">
 </div>
-
 
 
 <div class = "portion" id = "music">
@@ -126,7 +148,18 @@
 <p> Adam R. Lee Design </p>
 </footer>
 
+<script>
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 
+</script>
 
 </body>
 </html>
