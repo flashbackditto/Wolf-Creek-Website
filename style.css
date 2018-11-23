@@ -7,8 +7,6 @@ margin: 0;
 background-color: #FCFFFD;
 }
 
-
-
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -36,7 +34,6 @@ background-color: #FCFFFD;
   align-items: center;
 }
 
-
 .topnav a {
   color: white;
   padding: 14px 16px;
@@ -44,7 +41,6 @@ background-color: #FCFFFD;
   font-size: 17px;
   display: inline-flex;
 }
-
 
 .topnav a.icon {
   background: black;
@@ -59,24 +55,22 @@ background-color: #FCFFFD;
   padding-top: 2rem;
 }
 
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-
 
 .active {
   background-color: black;
   color: white;
 }
 
-
 ul li{
   display: inline-block;
   padding: 1rem;
   font-size: 120%;
 }
+
 ul li a {
   list-style: none;
   text-decoration: none;
@@ -98,6 +92,7 @@ hr {
   margin: auto;
   top: 0;
 }
+
 h2 {
   font-family: 'Allerta Stencil', sans-serif;
   text-decoration: underline;
@@ -116,6 +111,7 @@ iframe {
   margin: .5rem;
   box-shadow: 10px 10px 20px rgba(0,0,0,0.23), 6px 6px 6px rgba(0,0,0,0.3);
 }
+
 .portion {
   width: 85%;
   margin: 0 auto;
@@ -133,6 +129,7 @@ iframe {
   width: 63.6%;
   border-radius: 5px;
 }
+
 #videos {
   display: flex;
   flex-direction: row;
@@ -140,6 +137,7 @@ iframe {
   justify-content: center;
   align-items: center;
 }
+
 #tour {
   width: 63.6%;
   background-image: url(img/forest.jpg);
@@ -155,7 +153,7 @@ iframe {
 #tourDates {
   padding-bottom: 2rem;
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: 'Allerta Stencil', sans-serif;
   font-weight: bolder;
 }
 
@@ -165,14 +163,15 @@ footer {
   text-align: center;
   padding-top: .5rem;
   padding-bottom: .5rem;
-
 }
 
 footer ul {
   padding-inline-start: 0;
 }
-h3 a {
+
+h3 a , h3{
   color: black;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 
 footer ul li a {
@@ -183,6 +182,7 @@ footer ul li a {
 #footerTwo{
   background:gray;
   color: white;
+  padding-top: .8rem;
 }
 
 
@@ -203,7 +203,6 @@ footer ul li a {
     display: none;
   }
 
-
   .topnav a {
     color: white;
     padding: 14px 16px;
@@ -211,7 +210,6 @@ footer ul li a {
     font-size: 4vw;
     display: block;
   }
-
 
   .topnav a.icon {
     background: black;
@@ -222,7 +220,6 @@ footer ul li a {
     height: 4rem;
     vertical-align: middle;
   }
-
 
   .topnav a:hover {
     background-color: #ddd;
@@ -235,17 +232,14 @@ footer ul li a {
     color: white;
   }
 
-
-
   header h1 {
     font-size: 4vw;
     margin-top: 0;
   }
 
-
-#videos iframe {
+  #videos iframe {
   height: 25%;
   width: 75%;
-}
+  }
 
 }
